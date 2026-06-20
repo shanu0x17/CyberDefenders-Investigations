@@ -21,3 +21,13 @@ CyberDefenders
 - [ ] Investigation 03
 
 (Will be updated as I progress.)
+
+## Repository Structure
+
+- Investigations → Challenge documentation
+- Notes → Concepts and learning notes
+- Resources → Useful references and materials
+
+## Progress
+
+Currently working through the CyberDefenders SOC Analyst Tier 1 Track.
