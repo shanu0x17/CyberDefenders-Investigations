@@ -25,7 +25,6 @@ CyberDefenders
 ## Repository Structure
 
 - Investigations → Challenge documentation
-- Notes → Concepts and learning notes
 - Resources → Useful references and materials
 
 ## Progress
