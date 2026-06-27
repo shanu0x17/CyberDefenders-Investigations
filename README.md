@@ -1,6 +1,6 @@
 # CyberDefenders SOC Analyst Tier 1
 
-This repository documents my learning journey through the CyberDefenders SOC Analyst Tier 1 Track.
+This repository documents my hands-on investigations completed on the CyberDefenders platform. Each investigation includes a summary, tools used, skills practiced, key findings, and lessons learned.
 
 ## Goals
 
@@ -27,6 +27,4 @@ CyberDefenders
 - Investigations → Challenge documentation
 - Resources → Useful references and materials
 
-## Progress
 
-Currently working through the CyberDefenders SOC Analyst Tier 1 Track.
