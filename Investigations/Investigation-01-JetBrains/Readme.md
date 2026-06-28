@@ -1,51 +1,54 @@
-# Investigation 01 - JetBrains Lab
+# JetBrains Lab
+
+> **Platform:** CyberDefenders
+> **Category:** Network Forensics
+> **Difficulty:** Easy
+> **Tools:** Wireshark, NetworkMiner, Brim
+
+---
 
 ## Overview
 
-This investigation focused on analyzing network traffic from a compromised web server using Wireshark. The objective was to identify attacker activity, extract indicators of compromise (IOCs), understand persistence mechanisms, and map observed behavior to the MITRE ATT&CK framework.
+This investigation focused on analyzing a compromised web server using a provided PCAP file. The objective was to reconstruct the attack timeline, identify how the attacker gained access, investigate post-exploitation activity, and understand the overall impact of the compromise.
+
+---
+
+## What I Did
+
+During this investigation, I:
+
+- Analyzed the provided PCAP file using Wireshark.
+- Identified the attacker's IP address through HTTP traffic analysis.
+- Determined the web server version and researched the associated CVE.
+- Traced the attacker's actions after the initial compromise.
+- Investigated the uploaded webshell and its execution timeline.
+- Identified persistence mechanisms used by the attacker.
+- Examined credential modifications performed during the attack.
+- Investigated the attempted container escape activity.
+- Correlated attacker behavior with MITRE ATT&CK tactics.
+
+---
 
 ## Skills Practiced
 
 - PCAP Analysis
-- Wireshark Investigation
+- HTTP Traffic Analysis
+- Web Exploitation Investigation
 - IOC Identification
-- Web Exploitation Analysis
-- Network Forensics
+- Timeline Reconstruction
+- MITRE ATT&CK Mapping
 
-## Tools Used
+---
 
-- Wireshark
-- CyberDefenders Lab Environment
+## Key Learnings
 
-## Investigation Process
+- How to investigate a web server compromise using only network traffic.
+- How attacker activities can be reconstructed from packet captures.
+- The importance of identifying Indicators of Compromise (IOCs).
+- How MITRE ATT&CK helps classify attacker behavior.
 
-1. Examined HTTP traffic within the PCAP.
-2. Identified suspicious requests targeting the web server.
-3. Tracked attacker activity after initial access.
-4. Analyzed communication patterns and indicators.
-5. Correlated findings with attack techniques.
-
-## Key Findings
-
-- Identified evidence of web server compromise.
-- Observed attacker activity following successful exploitation.
-- Extracted multiple indicators of compromise (IOCs).
-- Analyzed attacker communication behavior.
-- Mapped observed activity to relevant MITRE ATT&CK techniques.
-
-## MITRE ATT&CK Techniques Observed
-
-- Initial Access
-- Execution
-- Command and Control
-
-## Lessons Learned
-
-- Network traffic can reveal the complete attack chain.
-- PCAP analysis is valuable for incident response investigations.
-- Understanding HTTP traffic patterns helps identify malicious behavior.
-- Indicators of compromise are critical for detection and future monitoring.
+---
 
 ## Reflection
 
-This was my first CyberDefenders SOC Analyst Tier 1 investigation. The lab improved my understanding of Wireshark-based investigations and demonstrated how network evidence can be used to reconstruct attacker activity.
+This investigation improved my confidence in using Wireshark to analyze real-world attack traffic and strengthened my understanding of network forensics and incident investigation.
