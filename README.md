@@ -19,6 +19,7 @@ CyberDefenders
 - [x] Investigation 01 - JetBrains Lab
 - [x] Investigation 02 - RetailBreach
 - [x] Investigation 03 - PsExec Hunt Lab
+- [x] Investigation 04 - Lockdown
 (Will be updated as I progress.)
 
 ## Repository Structure
